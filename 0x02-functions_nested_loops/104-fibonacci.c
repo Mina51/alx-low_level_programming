@@ -3,8 +3,8 @@
 /**
  * main - main block
  * Description: computes and prints the sum of all the multiples of 3 or
- *
- * Return:0 Success
+ *5 below 1024 (excluded), followed by a new line
+ * Return: 0 Success
  */
 
 int main(void)
@@ -20,7 +20,7 @@ int main(void)
 		printf("%lu", next);
 
 		if (i < 97)
-			printf(",");
+			printf(", ");
 		i++;
 	}
 	putchar('\n');
