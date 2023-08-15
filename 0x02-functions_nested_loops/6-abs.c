@@ -7,7 +7,7 @@
  *
  */
 
-int _abs(c)
+int _abs(int)
 {
 	if (c < 0)
 	{
