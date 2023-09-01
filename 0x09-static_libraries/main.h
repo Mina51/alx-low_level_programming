@@ -1,7 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-/*a list that was given from the task 0 */
+#include <stdio.h>
+#include <string.h>
 
 int _putchar(char c);
 int _islower(int c);
